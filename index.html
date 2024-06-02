@@ -6,265 +6,267 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Porten</title>
-
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Stick+No+Bills:wght@700&display=swap"
-		rel="stylesheet">
-
 	<script src="https://kit.fontawesome.com/1463ad3125.js" crossorigin="anonymous"></script>
+
 	<link rel="stylesheet" href="./css/style.min.css">
 </head>
 
 <body>
 	<!-- ===== header ===== -->
 	<header class="header">
-	<nav class="header__nav">
-		<div class="container">
-			<div class="header__navbar">
-				<div class="header__top">
-					<div class="header__left">
-						<p class="header__number">
-							<img class="header__img" src="./img/tel.svg" alt="tel">
-							8 (812) 123-45-67
-						</p>
-						<p class="header__text">We work 7 days a week</p>
-						<p class="header__work-time">9:00 — 18:00</p>
-					</div>
-					<div class="header__right">
-						<a href="#" class="header__text">
-							<img class="header__img" src="./img/enter.svg" alt="enter">
-							Login / Registration
-						</a>
-					</div>
-				</div>
-
-				<div class="header__bottom">
-					<div class="header__logo">
-						<p class="header__logo-text">PORTEN</p>
-					</div>
-
-					<ul class="header__menu">
-						<li class="header__item">Liked</li>
-						<li class="header__item">Personal Area</li>
-						<li class="header__item">settings</li>
-						<li class="header__item"><img src="./img/shopping.svg" alt="shopping"></li>
-						<li class="header__item"><img src="./img/search.svg" alt="search.svg"></li>
-					</ul>
-				</div>
-
-			</div>
+	<div class="header__top">
+		<div class="container header__container">
+			<ul class="header__ul">
+				<li class="header__li">
+					<p class="text header__text number">8 (812) 123-45-67</p>
+				</li>
+				<li class="header__li">
+					<p class="text header__text">We work 7 days a week</p>
+				</li>
+				<li class="header__li">
+					<p class="text header__text">9:00 — 18:00</p>
+				</li>
+			</ul>
+			<button class="text header__button">Enter/Registration</button>
 		</div>
-	</nav>
+	</div>
+
+	<div class="header__bottom">
+		<div class="container header__container">
+			<img class="header__logo" src="../img/logo.svg" alt="logo">
+			<ul class="header__menu">
+				<li class="header__item"><a href="#" class="header__link">Liked</a></li>
+				<li class="header__item"><a href="#" class="header__link">Personal Area</a></li>
+				<li class="header__item"><a href="#" class="header__link">settings</a></li>
+				<li class="header__item"><a href="#" class="header__link">
+						<img class="header__img" src="./img/shopping.svg" alt="shopping">
+					</a></li>
+				<li class="header__item"><a href="#" class="header__link">
+						<img class="header__img" src="./img/search.svg" alt="search">
+					</a></li>
+			</ul>
+		</div>
+	</div>
 </header>
+
 	<!-- ===== main ===== -->
 	<main class="main">
 
 	<section class="brand">
-		<div class="container">
-			<div class="brand__pos">
-				<div class="brand__box">
-					<h1 class="brand__title">PORTEN</h1>
-					<h3 class="brand__subtitle">Saint-Petersburg</h3>
-				</div>
-				<p class="brand__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus interdum purus,
-					est
-					tortor pulvinar ut in. Fringilla a diam enim sed justo, sed iaculis sagittis. Tortor id eu interdum
-					nec
-					ut iaculis. Penatibus ullamcorper ultricies morbi ipsum sem metus pharetra, mi. Tortor nibh magna
-					feugiat id nunc, dui nisl viverra.</p>
+		<div class="container brand__container">
+			<div class="brand__box">
+				<h1 class="brand__title">PORTEN</h1>
+				<h3 class="brand__subtitle">Saint-Petersburg</h3>
 			</div>
+			<p class="brand__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus interdum purus,
+				est
+				tortor pulvinar ut in. Fringilla a diam enim sed justo, sed iaculis sagittis. Tortor id eu interdum
+				nec ut iaculis. Penatibus ullamcorper ultricies morbi ipsum sem metus pharetra, mi. Tortor nibh
+				magna
+				feugiat id nunc, dui nisl viverra.</p>
+		</div>
 		</div>
 	</section>
 
 	<section class="season">
-		<div class="season__left">
-			<h2 class="season__left-title">SEASON 2020/21</h2>
-			<span class="season__span"></span>
-			<ul class="season__items">
-				<li class="season__item">
-					<div class="season__left-image">
-						<img src="./img/2.jpg" alt="img" class="season__left-img">
-					</div>
-					<p class="season__item-title">Louis XVI ATHOS</p>
-					<p class="season__item-price">3 000 USD</p>
-				</li>
-				<li class="season__item">
-					<div class="season__left-image">
-						<img src="./img/2.jpg" alt="img" class="season__left-img">
-					</div>
-					<p class="season__item-title">Louis XVI ATHOS</p>
-					<p class="season__item-price">3 000 USD</p>
-				</li>
-				<li class="season__item">
-					<div class="season__left-image">
-						<img src="./img/2.jpg" alt="img" class="season__left-img">
-					</div>
-					<p class="season__item-title">Louis XVI ATHOS</p>
-					<p class="season__item-price">3 000 USD</p>
-				</li>
-			</ul>
+		<div class="container season__container">
+			<div class="season__left">
+				<h2 class="title season__title">SEASON 2020/21</h2>
+				<span class="line season__span"></span>
+				<div class="season__box">
+					<article class="article">
+						<div class="article__image">
+							<img class="article__img" src="./img/2.jpg" alt="img">
+						</div>
+						<h3 class="article__title">Louis XVI ATHOS</h3>
+						<p class="article__price">1820 usd.</p>
+					</article>
+
+					<article class="article">
+						<div class="article__image article__image-season">
+							<img class="article__img article__img-season" src="./img/2.jpg" alt="img">
+						</div>
+						<h3 class="article__title article__title-season">Louis XVI ATHOS</h3>
+						<p class="article__price article__price-season">1820 usd.</p>
+					</article>
+
+					<article class="article">
+						<div class="article__image">
+							<img class="article__img" src="./img/2.jpg" alt="img">
+						</div>
+						<h3 class="article__title">Louis XVI ATHOS</h3>
+						<p class="article__price">1820 usd.</p>
+					</article>
+
+				</div>
+			</div>
+
+			<div class="season__right">
+				<h2 class="title season__title">New collection</h2>
+				<spam class="line"></spam>
+				<button class="button season__button">Catalogue</button>
+			</div>
 		</div>
 
-		<div class="season__right">
-			<div class="season__right-box">
-				<h2 class="season__right-title">New collection</h2>
-				<spam class="season__span"></spam>
-				<button class="season__button">Catalogue</button>
+	</section>
+
+	<section class="collection">
+		<div class="container collection__container">
+			<div class="collection__right">
+				<h2 class="title collection__title">collection</h2>
+				<span class="line"></span>
+				<p class="text collection__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Non rutrum
+					ornare
+					ut
+					mattis habitant dui arcu. Sagittis amet nunc ut neque quis nibh arcu. Vivamus vestibulum nisi et
+					venenatis sed scelerisque magna consectetur. Amet convallis quis gravida facilisis vulputate.
+					Faucibus
+					facilisi habitasse ipsum interdum dictum aliquet. Velit quis ullamcorper pulvinar nulla malesuada
+					integer. Aenean praesent viverra nulla nullam natoque volutpat curabitur auctor. Viverra viverra
+					ullamcorper scelerisque risus dignissim egestas. Id aliquam a aliquam egestas leo orci pharetra sed
+					diam.</p>
+				<button class="button collection__button">see the collection</button>
 			</div>
 		</div>
 	</section>
-
-	<sectionn class="collection">
-		<div class="collection__left">
-			<div class="collection__left-color"></div>
-		</div>
-		<div class="collection__right">
-			<h2 class="collection__title">collection 2018</h2>
-			<span class="season__span"></span>
-			<p class="collection__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Non rutrum ornare ut
-				mattis habitant dui arcu. Sagittis amet nunc ut neque quis nibh arcu. Vivamus vestibulum nisi et
-				venenatis sed scelerisque magna consectetur. Amet convallis quis gravida facilisis vulputate. Faucibus
-				facilisi habitasse ipsum interdum dictum aliquet. Velit quis ullamcorper pulvinar nulla malesuada
-				integer. Aenean praesent viverra nulla nullam natoque volutpat curabitur auctor. Viverra viverra
-				ullamcorper scelerisque risus dignissim egestas. Id aliquam a aliquam egestas leo orci pharetra sed
-				diam.</p>
-			<button class="season__button">see the collection</button>
-		</div>
-	</sectionn>
 
 	<section class="new">
-		<div class="container">
+		<div class="container new__container">
+			<h2 class="title new__title">new arrivals</h2>
+			<spam class="line"></spam>
 			<div class="new__box">
-				<h2 class="season__left-title new__title">new arrivals</h2>
-				<spam class="season__span"></spam>
-				<div class="new__items">
-					<li class="season__item">
-						<div class="season__left-image">
-							<img src="./img/2.jpg" alt="img" class="season__left-img">
-						</div>
-						<p class="season__item-title">Louis XVI ATHOS</p>
-						<p class="season__item-price">3 000 USD</p>
-					</li>
-					<li class="season__item">
-						<div class="season__left-image">
-							<img src="./img/2.jpg" alt="img" class="season__left-img">
-						</div>
-						<p class="season__item-title">Louis XVI ATHOS</p>
-						<p class="season__item-price">3 000 USD</p>
-					</li>
-					<li class="season__item">
-						<div class="season__left-image">
-							<img src="./img/2.jpg" alt="img" class="season__left-img">
-						</div>
-						<p class="season__item-title">Louis XVI ATHOS</p>
-						<p class="season__item-price">3 000 USD</p>
-					</li>
-					<li class="season__item">
-						<div class="season__left-image">
-							<img src="./img/2.jpg" alt="img" class="season__left-img">
-						</div>
-						<p class="season__item-title">Louis XVI ATHOS</p>
-						<p class="season__item-price">3 000 USD</p>
-					</li>
-					<li class="season__item">
-						<div class="season__left-image">
-							<img src="./img/2.jpg" alt="img" class="season__left-img">
-						</div>
-						<p class="season__item-title">Louis XVI ATHOS</p>
-						<p class="season__item-price">3 000 USD</p>
-					</li>
-					<li class="season__item">
-						<div class="season__left-image">
-							<img src="./img/2.jpg" alt="img" class="season__left-img">
-						</div>
-						<p class="season__item-title">Louis XVI ATHOS</p>
-						<p class="season__item-price">3 000 USD</p>
-					</li>
-					<li class="season__item">
-						<div class="season__left-image">
-							<img src="./img/2.jpg" alt="img" class="season__left-img">
-						</div>
-						<p class="season__item-title">Louis XVI ATHOS</p>
-						<p class="season__item-price">3 000 USD</p>
-					</li>
-					<li class="season__item">
-						<div class="season__left-image">
-							<img src="./img/2.jpg" alt="img" class="season__left-img">
-						</div>
-						<p class="season__item-title">Louis XVI ATHOS</p>
-						<p class="season__item-price">3 000 USD</p>
-					</li>
-				</div>
+
+				<article class="article">
+					<div class="article__image">
+						<img class="article__img" src="./img/2.jpg" alt="img">
+					</div>
+					<h3 class="article__title">Louis XVI ATHOS</h3>
+					<p class="article__price">1820 usd.</p>
+				</article>
+
+				<article class="article">
+					<div class="article__image">
+						<img class="article__img" src="./img/2.jpg" alt="img">
+					</div>
+					<h3 class="article__title">Louis XVI ATHOS</h3>
+					<p class="article__price">1820 usd.</p>
+				</article>
+
+				<article class="article">
+					<div class="article__image">
+						<img class="article__img" src="./img/2.jpg" alt="img">
+					</div>
+					<h3 class="article__title">Louis XVI ATHOS</h3>
+					<p class="article__price">1820 usd.</p>
+				</article>
+
+				<article class="article">
+					<div class="article__image">
+						<img class="article__img" src="./img/2.jpg" alt="img">
+					</div>
+					<h3 class="article__title">Louis XVI ATHOS</h3>
+					<p class="article__price">1820 usd.</p>
+				</article>
+
+				<article class="article">
+					<div class="article__image">
+						<img class="article__img" src="./img/2.jpg" alt="img">
+					</div>
+					<h3 class="article__title">Louis XVI ATHOS</h3>
+					<p class="article__price">1820 usd.</p>
+				</article>
+
+				<article class="article">
+					<div class="article__image">
+						<img class="article__img" src="./img/2.jpg" alt="img">
+					</div>
+					<h3 class="article__title">Louis XVI ATHOS</h3>
+					<p class="article__price">1820 usd.</p>
+				</article>
+
+				<article class="article">
+					<div class="article__image">
+						<img class="article__img" src="./img/2.jpg" alt="img">
+					</div>
+					<h3 class="article__title">Louis XVI ATHOS</h3>
+					<p class="article__price">1820 usd.</p>
+				</article>
+
+				<article class="article">
+					<div class="article__image">
+						<img class="article__img" src="./img/2.jpg" alt="img">
+					</div>
+					<h3 class="article__title">Louis XVI ATHOS</h3>
+					<p class="article__price">1820 usd.</p>
+				</article>
+
 			</div>
 		</div>
 	</section>
 
+
 	<section class="brands">
-		<div class="container">
-			<div class="brands__box">
-				<h2 class="brands__title">our brands</h2>
-				<span class="season__span"></span>
-				<div class="brands__images">
-					<img class="brands__img" src="./img/5.jpg" alt="img">
-					<img class="brands__img" src="./img/5.jpg" alt="img">
-					<img class="brands__img" src="./img/5.jpg" alt="img">
-					<img class="brands__img" src="./img/5.jpg" alt="img">
-				</div>
+		<div class="container brands__container">
+			<h2 class="title brands__title">our brands</h2>
+			<span class="line"></span>
+			<div class="brands__imgs">
+				<img class="brands__img" src="./img/5.jpg" alt="img">
+				<img class="brands__img" src="./img/5.jpg" alt="img">
+				<img class="brands__img" src="./img/5.jpg" alt="img">
+				<img class="brands__img" src="./img/5.jpg" alt="img">
 			</div>
+		</div>
 		</div>
 	</section>
 
 	<section class="contacts">
-		<div class="contacts__bg">
-			<div class="container">
-				<div class="contacts__box">
-					<div class="contacts__shop">
-						<h2 class="contacts__title">About Store</h2>
-						<p class="contacts__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mi semper
-							viverra
-							nunc cursus tortor lectus nunc nulla nibh. Egestas amet consectetur vel vitae aliquam dictum
-							suspendisse. Lobortis eget consequat, tellus et et sed turpis. Pretium quisque vitae, amet,
-							porttitor odio ultricies massa pharetra leo. Et ipsum urna fames in sit mi ultrices nisi,
-							nunc.
-						</p>
-					</div>
-					<div class="contacts__categories">
-						<h2 class="contacts__title">categories</h2>
-						<div class="contacts__items">
-							<div class="contacts__item">watch</div>
-							<div class="contacts__item">bracelets</div>
-							<div class="contacts__item">belts</div>
-							<div class="contacts__item">jewelry</div>
-							<div class="contacts__item">cufflinks</div>
-						</div>
-					</div>
-					<div class="contacts__newsletter">
-						<h2 class="contacts__title">newsletter</h2>
-						<p class="contacts__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mi semper
-							viverra
-							nunc cursus tortor lectus nunc nulla nibh.</p>
-						<div class="contacts__form">
-							<input type="text" class="contacts__input-text" placeholder="Your mail">
-							<button class="contacts__input-button">SUBSCRIBE</button>
-						</div>
-					</div>
+		<div class="container contacts__container">
+			<div class="contacts__desc">
+				<h2 class="title contacts__title">About Store</h2>
+				<p class="text contacts__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mi semper
+					viverra
+					nunc cursus tortor lectus nunc nulla nibh. Egestas amet consectetur vel vitae aliquam dictum
+					suspendisse. Lobortis eget consequat, tellus et et sed turpis. Pretium quisque vitae, amet,
+					porttitor odio ultricies massa pharetra leo. Et ipsum urna fames in sit mi ultrices nisi,
+					nunc.
+				</p>
+			</div>
+
+			<div class="contacts__categories">
+				<h2 class="title contacts__title">categories</h2>
+				<div class="contacts__items">
+					<div class="contacts__item">watch</div>
+					<div class="contacts__item">bracelets</div>
+					<div class="contacts__item">belts</div>
+					<div class="contacts__item">jewelry</div>
+					<div class="contacts__item">cufflinks</div>
+				</div>
+			</div>
+
+			<div class="contacts__newsletter">
+				<h2 class="title contacts__title">newsletter</h2>
+				<p class="text contacts__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mi semper
+					viverra
+					nunc cursus tortor lectus nunc nulla nibh.</p>
+				<div class="contacts__form">
+					<input type="text" class="contacts__input-text" placeholder="Your mail">
+					<button class="button contacts__input-button">SUBSCRIBE</button>
 				</div>
 			</div>
 		</div>
 	</section>
 
-
 </main>
+
 	<!-- ===== footer ===== -->
-	<footer class="footer">
-	<div class="container">
-		<div class="footer__box">
-			<p class="footer__left">© 2020 Все права защищены</p>
-			<p class="footer__right">Сделано Figma.info</p>
-		</div>
+	
+<footer class="footer">
+	<div class="container footer__container">
+		<p class="footer__text footer__left">© 2020 All rights reserved</p>
+		<p class="footer__text footer__right">Made by Figma.info</p>
 	</div>
-</footer>
+</footer> 
+
 </body>
 
 <script src="./js/scripts.min.js"></script>
